@@ -1,0 +1,27 @@
+*
+!*/
+# 只追踪这几类文件
+!*.md
+!*.m
+!*.lean
+!*.tex
+!*.txt
+!*.json
+!*.csv
+!*.py
+!*.canvas
+!.gitignore
+# Obsidian 配置（忽略整个文件夹）
+.obsidian/
+
+# 临时与缓存文件
+.trash/
+.temp/
+.workbuddy/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+# 文件夹
+数学工具/MATLAB教程新手入门篇（2025年9月25日版本）
