@@ -1,0 +1,17 @@
+import turtle as t
+t.setup(1600,900,0,0)
+t.speed(0)
+t.penup()
+t.right(90)
+Dx=float(input())
+t.forward(Dx)
+t.left(90)
+t.pendown()
+for i in range(1,50):
+    t.circle(Dx*i)
+    t.penup()
+    t.right(90)
+    t.forward(Dx)
+    t.left(90)
+    t.pendown()
+input()
